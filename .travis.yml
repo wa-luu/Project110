@@ -1,7 +1,7 @@
 language: java
 before_install:
-  - apt-get install -y ant
-  - apt-get install -y ant-optional
+  - install -y ant
+  - install -y ant-optional
 dist: trusty
 jdk:
   - oraclejdk8
