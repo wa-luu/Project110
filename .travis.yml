@@ -1,0 +1,9 @@
+language: java
+before_install:
+  - apt-get install -y ant
+  - apt-get install -y ant-optional
+jdk:
+  - oraclejdk8
+  - oraclejdk11
+  - openjdk10
+  - openjdk11
